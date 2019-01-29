@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+  <style> 
+    body{
+         background-image: url(assets/images/Cube.jpg);
+         background-size: 100%;
+         background-attachment: relative;
+     }
+ </style>    
+
+  <!-- <div class="jumbotron"> -->
+      
+<div class="container">
+    
+    <div class="row">
+          <div class="col-md-4">
+            <form>
+                <div id="foodForm">
+                 <label for="foodForm" style="color: green"><h3>Add your favorite food</h3></label>
+                  <input type="text" class="form" id="foodInput" placeholder="Your favorite food or drink e.g tea">
+                  <input id="addFood" type="submit" value="Add food or drink" style="background-color: lightgreen">
+                </div>
+              </form>
+        </div>
+        <div class="col-md-6 ml-auto">
+            <div id="btnview"></div>
+        </div>
+      </div>
+  
+  <br>
+  <br>
+
+  
+  <div class="container" style="margin-left: 30%">
+      
+    <div class="row">
+    <div class="col-12">
+      <div id="foodImages"></div>
+    </div>
+    </div>
+  
+</div>
+
+
+
+
+  <script src="assets/javascript/gifTastic.js"></script>
+</body>
+
+</html>
